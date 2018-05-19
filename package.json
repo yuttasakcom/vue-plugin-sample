@@ -1,5 +1,5 @@
 {
-  "name": "@yoyea/vue-plugin-sample",
+  "name": "vue-plugin-sample",
   "version": "1.0.0",
   "description": "vue-pluing-sample",
   "main": "src/vue-pluing-sample.js",
