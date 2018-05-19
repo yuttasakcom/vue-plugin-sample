@@ -1,15 +1,13 @@
 {
   "name": "vue-plugin-sample",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "vue-pluing-sample",
   "main": "dist/build.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yuttasakcom/vue-plugin-sample.git"
   },
-  "keywords": [
-    "vue-pluing-sample"
-  ],
+  "keywords": ["vue-pluing-sample"],
   "author": "YoYea <yuttasakcom@gmail.com",
   "license": "MIT",
   "bugs": {
