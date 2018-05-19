@@ -1,6 +1,6 @@
 {
   "name": "vue-plugin-sample",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue-pluing-sample",
   "main": "dist/vue-plugin-sample.js",
   "repository": {
