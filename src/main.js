@@ -1,9 +1,27 @@
-import Vue from "vue";
+export default {
+  install(Vue, options) {
+    // 1. add global method or property
+    Vue.myGlobalMethod = function() {
+      console.log("myGlobalMethod");
+    };
 
-import MyPlugin from "./vue-pluing-sample";
+    // 2. add a global asset
+    Vue.directive("my-directive", {
+      bind(el, binding, vnode, oldVnode) {
+        console.log("my-directive");
+      }
+    });
 
-Vue.use(MyPlugin);
+    // 3. inject some component options
+    Vue.mixin({
+      created: function() {
+        console.log("mixin-plugin");
+      }
+    });
 
-Vue.component("myPlugin", {});
-
-new Vue();
+    // 4. add an instance method
+    Vue.prototype.$myMethod = function(methodOptions) {
+      console.log("myMethod");
+    };
+  }
+};
