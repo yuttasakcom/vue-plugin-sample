@@ -1,6 +1,6 @@
 {
   "name": "vue-plugin-sample",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A Vue.js plugin example",
   "main": "dist/build.js",
   "scripts": {
@@ -10,7 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/yuttasakcom/vue-plugin-sample.git"
   },
-  "keywords": ["vue-plugin-sample"],
+  "keywords": [
+    "vue-plugin-sample"
+  ],
   "author": "Yuttasak Pannawat <yuttasakcom@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/yuttasakcom/vue-plugin-sample#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
